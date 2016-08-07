@@ -13,13 +13,17 @@ if (day == 1):
     print('Day 1')
     import Day1
 elif (day == 2):
-    pass
+    print('Day 2')
+    import Day2
 elif (day == 3):
-    pass
+    print('Day 3')
+    import Day3
 elif (day == 4):
-    pass
+    print('Day 4')
+    import Day4
 elif (day == 5):
-    pass
+    print('Day 5')
+    import Day5
 elif (day == 6):
     pass
 elif (day == 7):
