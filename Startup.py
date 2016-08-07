@@ -6,6 +6,9 @@ while (day == None):
     except:
         print("Invalid input")
 
+if (day == 0):
+    print('Day 0')
+    import Day0
 if (day == 1):
     print('Day 1')
     import Day1
