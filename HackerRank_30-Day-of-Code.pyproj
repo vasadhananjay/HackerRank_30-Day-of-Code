@@ -25,19 +25,30 @@
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.5" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Day0.py">
+    <Compile Include="Day00.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Day1.py">
+    <Compile Include="Day01.py" />
+    <Compile Include="Day02.py" />
+    <Compile Include="Day03.py" />
+    <Compile Include="Day04.py" />
+    <Compile Include="Day05.py" />
+    <Compile Include="Day06.py" />
+    <Compile Include="Day07.py" />
+    <Compile Include="Day08.py" />
+    <Compile Include="Day09.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day10.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day11.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Day2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Day3.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Day4.py">
+    <Compile Include="scratch.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Startup.py">

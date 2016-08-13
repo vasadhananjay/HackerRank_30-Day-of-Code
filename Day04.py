@@ -9,8 +9,8 @@ class Person:
     def amIOld(self):
         # Do some computations in here and print out the correct statement to the console
         if(self.age < 13):
-            print("You are young")
-        elif(self.age >= 13 and age < 18):
+            print("You are young.")
+        elif(self.age >= 13 and self.age < 18):
             print("You are a teenager.")
         else:
             print("You are old.")
@@ -19,7 +19,12 @@ class Person:
         # Increment the age of the person in here
         self.age += 1
 
-
-p = Person(10)
-p.yearPasses()
-print(p.age)
+t = int(input())
+for i in range(0, t):
+    age = int(input())         
+    p = Person(age)  
+    p.amIOld()
+    for j in range(0, 3):
+        p.yearPasses()       
+    p.amIOld()
+    print("")

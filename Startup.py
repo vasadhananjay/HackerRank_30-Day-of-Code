@@ -7,41 +7,51 @@ while (day == None):
         print("Invalid input")
 
 if (day == 0):
-    print('Day 0')
-    import Day0
+    #print("The total meal cost is %d dollars." % round(totalMealCost))
+    print("Day %d" % day)
+    import Day00
 if (day == 1):
-    print('Day 1')
-    import Day1
+    print("Day %d" % day)
+    import Day01
 elif (day == 2):
-    print('Day 2')
-    import Day2
+    print("Day %d" % day)
+    import Day02
 elif (day == 3):
-    print('Day 3')
-    import Day3
+    print("Day %d" % day)
+    import Day03
 elif (day == 4):
-    print('Day 4')
-    import Day4
+    print("Day %d" % day)
+    import Day04
 elif (day == 5):
-    print('Day 5')
-    import Day5
+    print("Day %d" % day)
+    import Day05
 elif (day == 6):
-    pass
+    print("Day %d" % day)
+    import Day06
 elif (day == 7):
-    pass
+    print("Day %d" % day)
+    import Day07
 elif (day == 8):
-    pass
+    print("Day %d" % day)
+    import Day08
 elif (day == 9):
-    pass
+    print("Day %d" % day)
+    import Day09
 elif (day == 10):
-    pass
+    print("Day %d" % day)
+    import Day10
 elif (day == 11):
-    pass
+    print("Day %d" % day)
+    import Day11
 elif (day == 12):
-    pass
+    print("Day %d" % day)
+    import Day12
 elif (day == 13):
-    pass
+    print("Day %d" % day)
+    import Day13
 elif (day == 14):
-    pass
+    print("Day %d" % day)
+    import Day14
 elif (day == 15):
     pass
 elif (day == 16):
